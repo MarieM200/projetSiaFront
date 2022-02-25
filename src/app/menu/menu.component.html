@@ -1,8 +1,9 @@
-<p-menubar [model]="items">
+<p-menubar [model]="items" style="text-align: center">
     <ng-template pTemplate="start">
-        <!-- <img src="assets/showcase/images/primeng.svg" height="40" class="mr-2">-->
+        <!-- <img src="assets/showcase/images/primeng.svg" height="40" class="mr-2"> -->
     </ng-template>
     <ng-template pTemplate="end">
-        <input type="text" pInputText placeholder="Search">
+        <!-- <input type="text" pInputText placeholder="Search"> -->
+        <button pButton label="Connexion" icon="pi pi-user" class="p-button-rounded" (click)="handleClick()"></button>
     </ng-template>
 </p-menubar>

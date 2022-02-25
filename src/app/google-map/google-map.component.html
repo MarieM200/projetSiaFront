@@ -4,7 +4,7 @@
     [overlays]="overlays" (onMapClick)="handleMapClick($event)" (onOverlayClick)="handleOverlayClick($event)"
     (onOverlayDragEnd)="handleDragEnd($event)"></p-gmap>
 
-<button type="button" pButton label="Clear" icon="pi pi-times" (click)="clear()" style="margin-right:.25em"></button>
+<button type="button" pButton label="Clear" icon="pi pi-times" class="p-button-rounded" (click)="clear()" style="margin-right:.25em"></button>
 
 <p-dialog showEffect="fade" [(visible)]="dialogVisible" header="New Location" [style]="{width: '300px'}">
     <div class="p-grid p-fluid" *ngIf="selectedPosition">
