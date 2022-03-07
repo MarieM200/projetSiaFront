@@ -17,13 +17,15 @@ import { MessageService } from 'primeng/api';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { IllustrationComponent } from './illustration/illustration.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GoogleMapComponent,
     MenuComponent,
-    IllustrationComponent
+    IllustrationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
