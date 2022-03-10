@@ -1,10 +1,10 @@
 <p-toast [style]="{marginTop: '80px'}"></p-toast>
 
-<p-gmap #gmap [style]="{'width':'100%','height':'320px', 'margin-bottom': '1em'}" [options]="options"
+<p-gmap #gmap [style]="{'width':'100%','height':'500px', 'margin-bottom': '1em'}" [options]="options"
     [overlays]="overlays" (onMapClick)="handleMapClick($event)" (onOverlayClick)="handleOverlayClick($event)"
     (onOverlayDragEnd)="handleDragEnd($event)"></p-gmap>
 
-<button type="button" pButton label="Clear" icon="pi pi-times" (click)="clear()" style="margin-right:.25em"></button>
+<button type="button" pButton label="Clear" icon="pi pi-times" class="p-button-rounded" (click)="clear()" style="margin-right:.25em"></button>
 
 <p-dialog showEffect="fade" [(visible)]="dialogVisible" header="New Location" [style]="{width: '300px'}">
     <div class="p-grid p-fluid" *ngIf="selectedPosition">

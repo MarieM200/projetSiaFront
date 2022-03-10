@@ -16,12 +16,16 @@ import {MenubarModule} from 'primeng/menubar';
 import { MessageService } from 'primeng/api';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
+import { IllustrationComponent } from './illustration/illustration.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GoogleMapComponent,
-    MenuComponent
+    MenuComponent,
+    IllustrationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

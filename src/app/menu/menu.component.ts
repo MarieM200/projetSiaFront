@@ -17,20 +17,20 @@ export class MenuComponent implements OnInit {
             },
             {
                 label:'Documents',
-                icon:'pi pi-fw pi-file'
+                icon:'pi pi-fw pi-folder-open'
             },
             {
                 label:'Assistance',
-                icon:'pi pi-fw pi-pencil'
+                icon:'pi pi-fw pi-exclamation-triangle'
             },
             {
                 label:'Equipes et matériel',
-                icon:'pi pi-fw pi-user'
-            },
-            {
-                label:'Connexion',
-                icon:'pi pi-fw pi-calendar'
+                icon:'pi pi-fw pi-map-marker'
             }
         ];
+    }
+
+    handleClick() {
+        //execute action
     }
 }
