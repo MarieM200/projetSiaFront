@@ -13,11 +13,15 @@ export class MenuComponent implements OnInit {
     ngOnInit() {
         this.items = [
             {
-                label:'Airblio Gestion'
+                label:'Airblio Gestion',
+                routerLink:   ['accueil'],
+                routerLinkActiveOptions: { exact: true },
             },
             {
                 label:'Documents',
-                icon:'pi pi-fw pi-file'
+                icon:'pi pi-fw pi-file',
+                routerLink:   ['doc'],
+                routerLinkActiveOptions: { exact: true },
             },
             {
                 label:'Assistance',
@@ -29,7 +33,9 @@ export class MenuComponent implements OnInit {
             },
             {
                 label:'Connexion',
-                icon:'pi pi-fw pi-calendar'
+                icon:'pi pi-fw pi-calendar',
+                routerLink:   ['login'],
+                routerLinkActiveOptions: { exact: true },
             }
         ];
     }
