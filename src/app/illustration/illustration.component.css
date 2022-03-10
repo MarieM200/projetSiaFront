@@ -1,0 +1,33 @@
+#plongee{
+  margin: 0px;
+  padding: 0px;
+  border: 3px solid #000000;
+}
+
+.info{
+  height: 50px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  font-family: "Lucida Handwriting";
+  padding-top: 4px;
+  font-size: 30px;
+  margin: 0px;
+  border: 2px solid #000000;
+}
+
+#airblio{
+  color: white;
+  background: #1370A5;
+  margin-top: 4px;
+}
+
+#map{
+  background: rgba(19, 112, 165, 0.72);
+  color: #EBFF00;
+}
+
+#desc_map{
+  color: white;
+  background: rgba(19, 112, 165, 0.43);
+}
