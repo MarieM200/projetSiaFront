@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { IllustrationComponent } from './illustration/illustration.component';
 import { FooterComponent } from './footer/footer.component';
+import { AccueilComponent } from './accueil/accueil.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
     GoogleMapComponent,
     MenuComponent,
     IllustrationComponent,
-    FooterComponent
+    FooterComponent,
+    AccueilComponent
   ],
   imports: [
     BrowserModule,
