@@ -19,7 +19,11 @@ export class MenuComponent implements OnInit {
             },
             {
                 label:'Documents',
+<<<<<<< HEAD
                 icon:'pi pi-fw pi-folder-open',
+=======
+                icon:'pi pi-fw pi-file',
+>>>>>>> dbdbd3a1d26393b3361e740394466b2c5a571c92
                 routerLink:   ['doc'],
                 routerLinkActiveOptions: { exact: true },
             },

@@ -25,6 +25,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MessageService } from 'primeng/api';
 import { MenuComponent } from './menu/menu.component';
+<<<<<<< HEAD
 import { IllustrationComponent } from './illustration/illustration.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './accueil/accueil.component';
@@ -33,12 +34,17 @@ import { DocComponent } from './doc/doc.component';
 import { EquipeMaterielPageComponent } from './equipe-materiel-page/equipe-materiel-page.component';
 import { AssistancePageComponent } from './assistance-page/assistance-page.component';
 import { HistoriqueComponent } from './assistance-page/historique/historique.component';
+=======
+import { LoginComponent } from './login/login.component';
+import { DocComponent } from './doc/doc.component';
+>>>>>>> dbdbd3a1d26393b3361e740394466b2c5a571c92
 
 @NgModule({
   declarations: [
     AppComponent,
     GoogleMapComponent,
     MenuComponent,
+<<<<<<< HEAD
     IllustrationComponent,
     FooterComponent,
     AccueilComponent,
@@ -47,6 +53,10 @@ import { HistoriqueComponent } from './assistance-page/historique/historique.com
     EquipeMaterielPageComponent,
     AssistancePageComponent,
     HistoriqueComponent
+=======
+    LoginComponent,
+    DocComponent
+>>>>>>> dbdbd3a1d26393b3361e740394466b2c5a571c92
   ],
   imports: [
     BrowserModule,
@@ -63,6 +73,7 @@ import { HistoriqueComponent } from './assistance-page/historique/historique.com
     MatFormFieldModule,
     MatButtonModule,
     MatCardModule,
+<<<<<<< HEAD
     MatInputModule,
     MatSelectModule,
     MatDatepickerModule,
@@ -71,6 +82,9 @@ import { HistoriqueComponent } from './assistance-page/historique/historique.com
     MatTabsModule,
     MatRadioModule,
     FileManagerAllModule,
+=======
+    FileManagerAllModule
+>>>>>>> dbdbd3a1d26393b3361e740394466b2c5a571c92
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]
