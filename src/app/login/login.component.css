@@ -1,0 +1,65 @@
+body {
+  background-color: aqua;
+}
+
+.login-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-card {
+  background-color: #0f056b;
+  height: 310px;
+  width: 220px;
+}
+
+input {
+  font-family: Roboto;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 180px;
+  height: 40px;
+  margin-left: 3px;
+  font-size: 20px;
+  ::placeholder {
+    color: #c7c7c7;
+  }
+}
+
+mat-card-title {
+  margin-top: 20px !important;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+}
+
+button {
+  margin-top: 20px;
+  color: white;
+  background-color: #318ce7;
+  margin-left: 45px;
+}
+
+span {
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
