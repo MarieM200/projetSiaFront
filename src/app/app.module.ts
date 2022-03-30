@@ -31,6 +31,9 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { LoginComponent } from './login/login.component';
 import { DocComponent } from './doc/doc.component';
 import { EquipeMaterielPageComponent } from './equipe-materiel-page/equipe-materiel-page.component';
+import {PlaceEquipeComponent} from './equipe-materiel-page/place-equipe/place-equipe.component';
+import {PlaceMaterielComponent} from './equipe-materiel-page/place-materiel/place-materiel.component';
+import {QuestionsComponent} from './assistance-page/questions/questions.component';
 import { AssistancePageComponent } from './assistance-page/assistance-page.component';
 import { HistoriqueComponent } from './assistance-page/historique/historique.component';
 
@@ -47,6 +50,9 @@ import { HistoriqueComponent } from './assistance-page/historique/historique.com
     EquipeMaterielPageComponent,
     AssistancePageComponent,
     HistoriqueComponent,
+    QuestionsComponent,
+    PlaceEquipeComponent,
+    PlaceMaterielComponent,
     DocComponent
   ],
   imports: [
