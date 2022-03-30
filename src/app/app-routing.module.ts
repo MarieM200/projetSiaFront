@@ -4,6 +4,8 @@ import { GoogleMapComponent } from './google-map/google-map.component';
 import { LoginComponent } from './login/login.component';
 import { DocComponent } from './doc/doc.component';
 import { AccueilComponent } from './accueil/accueil.component';
+import { AssistancePageComponent } from './assistance-page/assistance-page.component';
+import { EquipeMaterielPageComponent } from './equipe-materiel-page/equipe-materiel-page.component';
 
 const routes: Routes = [
   {
@@ -19,9 +21,17 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
+    path: 'assistance',
+    component: AssistancePageComponent
+  },
+  {
+    path: 'equipe',
+    component: EquipeMaterielPageComponent
+  },
+  {
     path : '**',
     redirectTo : 'accueil'
-  }
+  },
 ]
 
 

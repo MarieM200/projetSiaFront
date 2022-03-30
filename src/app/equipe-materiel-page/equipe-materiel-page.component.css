@@ -1,0 +1,26 @@
+.mat-tab-group {
+  margin-bottom: 48px;
+}
+.mx-auto{
+  text-align: center;
+  margin-top: 3%;
+  padding: 4%;
+  background-color: #1370A5;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+
+}
+.equ_mat{
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+color: #FFFFFF;
+}
+.onglet{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+agm-map {
+  height: 300px;
+}

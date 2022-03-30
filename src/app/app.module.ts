@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GoogleMapComponent } from './google-map/google-map.component';
@@ -15,15 +16,23 @@ import { DialogModule } from 'primeng/dialog';
 import { ButtonModule } from 'primeng/button';
 import { CheckboxModule } from 'primeng/checkbox';
 import {MenubarModule} from 'primeng/menubar';
-
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { MatNativeDateModule } from '@angular/material/core';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MessageService } from 'primeng/api';
-import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { IllustrationComponent } from './illustration/illustration.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { LoginComponent } from './login/login.component';
 import { DocComponent } from './doc/doc.component';
+import { EquipeMaterielPageComponent } from './equipe-materiel-page/equipe-materiel-page.component';
+import { AssistancePageComponent } from './assistance-page/assistance-page.component';
+import { HistoriqueComponent } from './assistance-page/historique/historique.component';
 
 @NgModule({
   declarations: [
@@ -34,12 +43,16 @@ import { DocComponent } from './doc/doc.component';
     FooterComponent,
     AccueilComponent,
     LoginComponent,
-    DocComponent
+    DocComponent,
+    EquipeMaterielPageComponent,
+    AssistancePageComponent,
+    HistoriqueComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     GMapModule,
     DialogModule,
     FormsModule,
@@ -50,7 +63,14 @@ import { DocComponent } from './doc/doc.component';
     MatFormFieldModule,
     MatButtonModule,
     MatCardModule,
-    FileManagerAllModule
+    MatInputModule,
+    MatSelectModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    GoogleMapsModule,
+    MatTabsModule,
+    MatRadioModule,
+    FileManagerAllModule,
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]

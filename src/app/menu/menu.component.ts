@@ -25,11 +25,15 @@ export class MenuComponent implements OnInit {
             },
             {
                 label:'Assistance',
-                icon:'pi pi-fw pi-exclamation-triangle'
+                icon:'pi pi-fw pi-exclamation-triangle',
+                routerLink: ['assistance'],
+                routerLinkActiveOptions : {exact: true},
             },
             {
                 label:'Equipes et matériel',
-                icon:'pi pi-fw pi-map-marker'
+                icon:'pi pi-fw pi-map-marker',
+                routerLink: ['equipe'],
+                routerLinkActiveOptions: {exact: true},
             },
             {
                 label:'Connexion',
