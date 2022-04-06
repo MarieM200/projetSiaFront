@@ -25,7 +25,7 @@ input {
   margin-left: 3px;
   font-size: 20px;
   ::placeholder {
-    color: #c7c7c7;
+    color: #c7c7c7 !important;
   }
 }
 
