@@ -12,7 +12,7 @@ export class DocComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public hostUrl: string = 'http://localhost:62870/';
+  public hostUrl: string = 'https://ej2services.syncfusion.com/production/web-services/';
 
               public ajaxSettings: object = {
 
